@@ -1,7 +1,9 @@
 Contador de Cliques
+
 Este projeto é uma aplicação simples desenvolvida em React que implementa um contador de cliques. Foi criado para praticar conceitos fundamentais como componentes, gerenciamento de estado (state) e manipulação de eventos.
 
 Tecnologias utilizadas
+
 React
 
 JavaScript
@@ -10,14 +12,15 @@ HTML
 
 CSS
 
-Funcionalidades
-Exibir o número atual de cliques.
+Funcionalidades:
 
-Incrementar o contador ao clicar no botão "Aumentar".
+- Exibir o número atual de cliques.
 
-Decrementar o contador ao clicar no botão "Diminuir" (botão exibido apenas quando o contador é maior que zero).
+- Incrementar o contador ao clicar no botão "Aumentar".
 
-Efeito visual no botão ao passar o mouse (hover).
+- Decrementar o contador ao clicar no botão "Diminuir" (botão exibido apenas quando o contador é maior que zero).
+
+- Efeito visual no botão ao passar o mouse (hover).
 
 Como executar o projeto
 
