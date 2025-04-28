@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Contador de Cliques
+Este projeto é uma aplicação simples desenvolvida em React que implementa um contador de cliques. Foi criado para praticar conceitos fundamentais como componentes, gerenciamento de estado (state) e manipulação de eventos.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tecnologias utilizadas
+React
 
-## Available Scripts
+JavaScript
 
-In the project directory, you can run:
+HTML
 
-### `npm start`
+CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Funcionalidades
+Exibir o número atual de cliques.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Incrementar o contador ao clicar no botão "Aumentar".
 
-### `npm test`
+Decrementar o contador ao clicar no botão "Diminuir" (botão exibido apenas quando o contador é maior que zero).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Efeito visual no botão ao passar o mouse (hover).
 
-### `npm run build`
+Como executar o projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone o repositório:
+git clone https://github.com/seu-usuario/contador-cliques.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Acesse a pasta do projeto:
+cd contador-cliques
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instale as dependências:
+npm install
 
-### `npm run eject`
+Inicie o servidor de desenvolvimento:
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+A aplicação estará disponível em:
+http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Considerações
+O botão "Diminuir" é exibido apenas quando o contador é maior que zero para evitar valores negativos.
+Animações simples foram aplicadas aos botões para melhor experiência do usuário.
